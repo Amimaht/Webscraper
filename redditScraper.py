@@ -1,7 +1,7 @@
 import praw
 import pandas as pd
 
-reddit = praw.Reddit(client_id='oJaU_JgqHmbdmA', client_secret='sxwmKWVJb3KDM9ITZALUw8KQEi0', redirect_uri='http://localhost:8080', user_agent='webscrapping')
+reddit = praw.Reddit(client_id='###', client_secret='####', redirect_uri='http://localhost:8080', user_agent='webscrapping')
 
 posts=[]
 hot_posts= reddit.subreddit('pennystocks')
